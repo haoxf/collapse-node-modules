@@ -1,7 +1,9 @@
 {
   "name": "collapse-node-modules",
+  "publisher": "haoxf",
   "displayName": "collapse-node_modules",
   "description": "use hotkey(ctrl+cmd+n) to collapse node_modules",
+  "repository": "https://github.com/haoxf/collapse-node-modules",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.46.0"
