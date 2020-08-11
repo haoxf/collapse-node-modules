@@ -2,11 +2,11 @@
   "name": "collapse-node-modules",
   "publisher": "haoxf",
   "displayName": "collapse-node_modules",
-  "description": "use hotkey(ctrl+cmd+n) to collapse node_modules",
+  "description": "use hotkey(win: ctrl+alt+n, mac: ctrl+cmd+n) to collapse node_modules",
   "repository": "https://github.com/haoxf/collapse-node-modules",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
-    "vscode": "^1.46.0"
+    "vscode": "^1.47.0"
   },
   "categories": [
     "Other"
@@ -25,7 +25,7 @@
     "keybindings": [
       {
         "command": "collapse-node-modules.collapse",
-        "key": "ctrl+win+n",
+        "key": "ctrl+alt+n",
         "mac": "ctrl+cmd+n"
       }
     ]
@@ -39,16 +39,16 @@
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
-    "@types/vscode": "^1.46.0",
-    "@types/glob": "^7.1.1",
-    "@types/mocha": "^7.0.2",
-    "@types/node": "^13.11.0",
-    "eslint": "^6.8.0",
-    "@typescript-eslint/parser": "^2.30.0",
-    "@typescript-eslint/eslint-plugin": "^2.30.0",
+    "@types/glob": "^7.1.3",
+    "@types/mocha": "^8.0.1",
+    "@types/node": "^14.0.27",
+    "@types/vscode": "^1.47.0",
+    "@typescript-eslint/eslint-plugin": "^3.9.0",
+    "@typescript-eslint/parser": "^3.9.0",
+    "eslint": "^7.6.0",
     "glob": "^7.1.6",
-    "mocha": "^7.1.2",
-    "typescript": "^3.8.3",
+    "mocha": "^8.1.1",
+    "typescript": "^3.9.7",
     "vscode-test": "^1.3.0"
   }
 }
